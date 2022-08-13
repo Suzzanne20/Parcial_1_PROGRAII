@@ -6,8 +6,8 @@ package Clases;
 
 /**
  *
- * @author susan
+ * @author Suzzanne Acevedo
  */
-public class NewClass {
+public class LibroVec {
     
 }

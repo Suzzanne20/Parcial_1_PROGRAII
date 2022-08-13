@@ -13,7 +13,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author susan
+ * @author Suzzanne Acevedo
  */
 @WebServlet(urlPatterns = {"/ServletLibro"})
 public class ServletLibro extends HttpServlet {
