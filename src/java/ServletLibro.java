@@ -15,8 +15,8 @@ import jakarta.servlet.http.HttpServletResponse;
  *
  * @author susan
  */
-@WebServlet(urlPatterns = {"/NewServlet"})
-public class NewServlet extends HttpServlet {
+@WebServlet(urlPatterns = {"/ServletLibro"})
+public class ServletLibro extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -34,9 +34,23 @@ public class NewServlet extends HttpServlet {
             /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");
             out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet NewServlet</title>");            
-            out.println("</head>");
+            out.println("    <head>\n" +
+            "        <title>Libreria</title>\n" +
+            "        <meta charset=\"UTF-8\">\n" +
+            "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n" +
+            "        <link rel=\"shortcut icon\" href=\"https://static.vecteezy.com/system/resources/previews/001/200/145/non_2x/books-png.png\" type=\"image/x-icon\"/>\n" +
+            "        <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css\" >\n" +
+            "        <link href=\"estiloServ.css\" rel=\"stylesheet\" type=\"text/css\"/>\n" +
+            "        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct\" crossorigin=\"anonymous\"></script>\n" +
+            "        <nav class=\"navbar navbar-dark bg-dark\">\n" +
+            "          <div class=\"container-fluid row text-center \"> <div class=\"row align-items-center\">\n" +
+            "          <a class=\"navbar-brand col\" href=\"index.html\">\n" +
+            "          <img src=\"https://static.vecteezy.com/system/resources/previews/001/200/145/non_2x/books-png.png\" alt=\"\" width=\"30\" height=\"30\" class=\"d-inline-block align-text-top\">Biblioteca</a>\n" +
+            "          <a class=\"navbar-brand col \" href=\"ServletLibro\">Libros</a>\n" +
+            "          <a class=\"navbar-brand col \" href=\"page2.html\">Registro</a>\n" +
+            "          </div></div>\n" +
+            "        </nav>\n" +
+            "    </head>");
             out.println("<body>");
             out.println("<h1>Servlet NewServlet at " + request.getContextPath() + "</h1>");
             out.println("</body>");
