@@ -35,12 +35,12 @@ public class ServletLibro extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("    <head>\n" +
-            "        <title>Libreria</title>\n" +
+            "        <title>Registros</title>\n" +
             "        <meta charset=\"UTF-8\">\n" +
             "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n" +
             "        <link rel=\"shortcut icon\" href=\"https://static.vecteezy.com/system/resources/previews/001/200/145/non_2x/books-png.png\" type=\"image/x-icon\"/>\n" +
             "        <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css\" >\n" +
-            "        <link href=\"estiloServ.css\" rel=\"stylesheet\" type=\"text/css\"/>\n" +
+            "        <link href=\"estiloPrinc.css\" rel=\"stylesheet\" type=\"text/css\"/>\n" +
             "        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct\" crossorigin=\"anonymous\"></script>\n" +
             "        <nav class=\"navbar navbar-dark bg-dark\">\n" +
             "          <div class=\"container-fluid row text-center \"> <div class=\"row align-items-center\">\n" +
