@@ -10,4 +10,24 @@ package Clases;
  */
 public class LibroVec {
     
+    Libro[] tabLibro;
+    int ind;
+    
+    public LibroVec(){
+        this.tabLibro=new Libro[50];
+        this.ind=0;    
+    }
+    
+    public void saveLi (Libro libro){
+        this.tabLibro[this.ind]=libro;
+        this.ind=this.ind+1;
+    
+    }
+    
+    public Libro[] gimmeLi(){
+        return this.tabLibro;
+    
+    }
+    
+    
 }
