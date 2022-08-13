@@ -24,5 +24,42 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
     </head>
     <body>
         
+        <div class="modal-dialog text-center"><div class="col-sm8 princ"><div class="modal-content">
+        <div class="col-12 logo"><img src="https://cdn-icons-png.flaticon.com/512/201/201571.png" width="300"></div>
+        <h1>Biblioteca</h1><br>
+         
+        <div class="container">  
+        <h4>Registro de Libros</h4>
+        
+        <form action="ServletLibro" class="col-12">
+                  <div class="input-group mb-3">
+                      <span class="input-group-text col-3">Codigo</span>
+                      <input type="text" class="form-control" placeholder="Ingrese codigo de libro" required name="cod">
+                  </div>
+                  <div class="input-group mb-3">
+                      <span class="input-group-text col-3">Nombre</span>
+                      <input type="text" class="form-control" placeholder="Ingrese el nombre del libro" required name="name">
+                  </div>
+                  <div class="input-group mb-3">
+                      <span class="input-group-text col-3">Tipo</span>
+                      <input type="text" class="form-control" placeholder="Ingrese el tipo de pasta" required name="type">
+                  </div>
+                  <div class="input-group mb-3">
+                      <span class="input-group-text col-3">Edicion</span>
+                      <input type="email" class="form-control" placeholder="edicion del libro" required name="edi">
+                  </div>
+                  <div class="input-group mb-3">
+                      <span class="input-group-text col-3">Año</span>
+                      <input type="text" class="form-control" placeholder="Año de publicación" required name="age">
+                  </div>
+                     <br>
+
+            <button type="submit" class="btn btn-warning">Guardar</button>
+            <button type="reset" class="btn btn-dark">Cancelar</button>
+            <br><br>
+
+         </form></div></div></div></div>  
+              
+        
     </body>
 </html>
